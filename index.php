@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
 
@@ -7,8 +8,7 @@
     function check(){
         City=document.getElementById("city").value;
         const key="7723a77dbc994f0494131936212303";
-    //    var url="http://api.weatherapi.com/v1/current.json?key="+key+"&q"+City;
-        url=" http://api.weatherapi.com/v1/current.json?key="+key+"&q="+City+"&aqi=no";
+        url=" https://api.weatherapi.com/v1/current.json?key="+key+"&q="+City+"&aqi=no";
     try{    let req= new XMLHttpRequest();
         req.open("POST",url);
         req.send();
