@@ -47,8 +47,10 @@
         );
     });
         </script>
+        <title>weather app</title>
     </head>
     <body>
+        <h1>Weather app</h1>
         <input type="text" id="city" placeholder="City " >
         <button id="btn1" value="check weather" onclick="check()">Submit</button>
         <br><br>
